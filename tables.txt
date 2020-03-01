@@ -1,0 +1,5 @@
+#1. Create a database springsecurity
+mysql> create database springsecurity;
+
+#2. Create table user
+mysql> create table User (id integer auto_increment, user_name vatchar(30) not null, password varchar(10) not null, roles varchar(30) not null, active boolean, constraint pk_user primary key(id));
